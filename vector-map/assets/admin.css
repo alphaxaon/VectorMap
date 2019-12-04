@@ -1,0 +1,147 @@
+.map-container {
+    position: relative;
+    clear: both;
+}
+
+#map {
+    width: 75%;
+    height: 700px;
+}
+
+.side-panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #eee;
+    padding: 20px;
+    width: 25%;
+    height: 700px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.side-panel .btn-small {
+    margin-top: 15px;
+}
+
+#color-palette {
+    float: left;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+#delete-button,
+#duplicate-button,
+#load-button,
+.search-button-container {
+    float: left;
+}
+
+#duplicate-button,
+#load-button,
+.search-button-container {
+    margin-right: 10px;
+}
+
+#save-button {
+    float: right;
+}
+
+.color-button {
+    width: 35px;
+    height: 35px;
+    font-size: 0;
+    margin: 2px;
+    float: left;
+    cursor: pointer;
+}
+
+#wpbody-content .update-nag,
+#wpbody-content .error {
+    display: none;
+}
+
+.logo {
+    width: 170px;
+    margin-top: 20px;
+}
+
+.map-editor {
+    border: 2px solid #eee;
+    box-shadow: 1px 1px 14px #eee;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.toolbar {
+    background: #eee;
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 58px;
+}
+
+.dropdown {
+    float: left;
+    display: inline-block;
+}
+
+.show-when-selected {
+    display: none;
+}
+
+.alerts {
+    width: 80%;
+    position: absolute;
+    top: 24px;
+    right: 20px;
+}
+
+.dropdown-menu {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.search-menu {
+    position: absolute;
+    z-index: 2;
+    background: white;
+    padding: 10px;
+    width: 840px;
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    display: none;
+}
+.search-menu input {
+    float: left;
+    width: 730px;
+    margin-right: 10px;
+}
+.search-menu button {
+    height: 37px;
+}
+.search-menu .clear-results {
+    font-size: 12px;
+    text-decoration: underline;   
+    cursor: pointer;
+}
+.search-menu .clear-results:hover {
+    text-decoration: underline;   
+}
+#results a {
+    text-decoration: underline;
+    font-size: 12px;
+    cursor: pointer;
+}
+#results a:hover{
+    color: gray;
+}
+#results {
+    padding: 0px 10px;
+    font-size: 14px;
+}
+#results > div {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
